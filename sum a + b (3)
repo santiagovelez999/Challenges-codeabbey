@@ -1,8 +1,7 @@
-    public static void main(String[] args) 
-    {
-        // TODO Auto-generated method stub
-        int answer = 11203 + 4882;
-        System.out.println("The answer is:" + answer);
-    }
-
+var arr = new int[] {7622,9041};
+int Sum = 0;
+for (int i = 0; i < arr.Length; i++)
+{
+  Sum += arr[i];
+  Console.WriteLine(Sum);
 }
