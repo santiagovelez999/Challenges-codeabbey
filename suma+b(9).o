@@ -1,0 +1,2 @@
+let () =
+Scanf.scanf "%d %d " (fun a b -> a + b) |> Printf.printf "%d\n"
